@@ -29,5 +29,6 @@ public class KafeDoFWhile07 {
 
     System.out.println("Semua transaksi selesai.");
 
+    sc.close();
     }
 }

@@ -39,5 +39,7 @@ public class Tugas1Bioskop07 {
         System.out.println("----- Rekap Penjualan Tiket -----");
         System.out.println("Total tiket terjual : " + totalTiket);
         System.out.println("Total penjualan     : Rp " + totalPenjualan);
+
+        sc.close();
     }
 }

@@ -12,7 +12,6 @@ public class Latihan03_07 {
         for (int i = 1; i <= n; i++) {
             int kuadrat = 0;
 
-            // Menghitung i kuadrat dengan perulangan bersarang
             for (int j = 1; j <= i; j++) {
                 kuadrat += i;
             }

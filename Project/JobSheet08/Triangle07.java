@@ -1,4 +1,3 @@
-package Project.JobSheet08;
 import java.util.Scanner;
 
 public class Triangle07 {
@@ -8,15 +7,16 @@ public class Triangle07 {
     System.out.print("Masukkan nilai n: ");
     int n = sc.nextInt();
 
-    int i = 0;
-    while (i <= n) {
-        int j = 0;
-        while (j < 1) {
-        System.out.print("*");
-        j++;    
+    int i = 1;
+         while (i <= n) {
+            int j = 1;
+            while (j <= i) {
+                System.out.print("*");
+                j++;
+            }
+            System.out.println();
+            i++;
         }
-        i++;
-    }   
-    sc.close();
+        sc.close();
     }
 }

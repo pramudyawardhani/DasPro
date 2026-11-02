@@ -1,4 +1,3 @@
-package Project.JobSheet08;
 import java.util.Scanner;
 
 public class Star07 {
